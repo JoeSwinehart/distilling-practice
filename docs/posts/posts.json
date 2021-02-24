@@ -2,7 +2,7 @@
   {
     "path": "posts/2021-02-24-need-to-add-some-catpix/",
     "title": "Need to add some catpix",
-    "description": "A short description of the post.",
+    "description": "Not a lot to see here...",
     "author": [
       {
         "name": "Joe Swinehart",
@@ -13,8 +13,8 @@
     "categories": [],
     "contents": "\nI wonder if I can upload and add cat pictures to my web page?\n\n\nlibrary(tidyverse)\nggplot(mtcars, aes(disp, mpg)) +\n  geom_point() +\n  geom_smooth() +\n  labs(title = \"This plot is super hot\")\n\n\n\n#+\n # theme(text = element_text(family = \"Roboto\"))\n\n\n\n\n\n\n",
     "preview": "posts/2021-02-24-need-to-add-some-catpix/need-to-add-some-catpix_files/figure-html5/unnamed-chunk-1-1.png",
-    "last_modified": "2021-02-24T10:43:10-08:00",
-    "input_file": {}
+    "last_modified": "2021-02-24T11:00:03-08:00",
+    "input_file": "need-to-add-some-catpix.utf8.md"
   },
   {
     "path": "posts/welcome/",
