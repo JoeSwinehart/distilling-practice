@@ -1,0 +1,32 @@
+---
+title: "Need to add some catpix"
+description: |
+  A short description of the post.
+author:
+  - name: Joe Swinehart
+    url: https://github.com/JoeSwinehart
+date: 02-24-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+#knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(dev = "ragg_png")
+
+```
+I wonder if I can upload and add cat pictures to my web page?
+
+```{r}
+library(tidyverse)
+ggplot(mtcars, aes(disp, mpg)) +
+  geom_point() +
+  geom_smooth() +
+  labs(title = "This plot is super hot")
+#+
+ # theme(text = element_text(family = "Roboto"))
+```
+
+
