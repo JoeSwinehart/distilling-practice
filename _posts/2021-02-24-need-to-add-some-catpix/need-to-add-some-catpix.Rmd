@@ -27,9 +27,8 @@ library(tidyverse)
 ggplot(mtcars, aes(disp, mpg)) +
   geom_point() +
   geom_smooth() +
-  labs(title = "This plot is super hot")
-#+
- # theme(text = element_text(family = "Roboto"))
+  labs(title = "This plot is super hot")+
+  theme(text = element_text(family = "serif"))
 ```
 
 
